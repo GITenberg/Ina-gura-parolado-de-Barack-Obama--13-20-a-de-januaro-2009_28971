@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '32943'
     url: http://www.gutenberg.org/2009/agents/32943
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/28971#Ina-gura-parolado-de-Barack-Obama--13-20-a-de-januaro-2009
 gutenberg_bookshelf: Esperanto
 gutenberg_issued: '2009-05-25'
 gutenberg_type: Text
