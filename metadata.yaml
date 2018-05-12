@@ -1,0 +1,28 @@
+_repo: Ina-gura-parolado-de-Barack-Obama--13-20-a-de-januaro-2009_28971
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Obama, Barack
+    alias: Obama, Barack Hussein, II
+    birthdate: 1961
+    gutenberg_agent_id: '32943'
+    url: http://www.gutenberg.org/2009/agents/32943
+description: ''
+gutenberg_bookshelf: Esperanto
+gutenberg_issued: '2009-05-25'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '28971'
+language: eo
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'E895'
+- !lcsh 'Obama, Barack, 1961- -- Inauguration, 2009'
+- !lcsh 'Presidents -- United States -- Inaugural addresses'
+title: "Inaŭgura parolado de Barack Obama\r\n20-a de januaro, 2009"
+url: http://www.gutenberg.org/ebooks/28971
