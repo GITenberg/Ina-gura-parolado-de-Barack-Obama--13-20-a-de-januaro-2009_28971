@@ -1,75 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/28971">
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16773</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T04:04:55.004487</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf1899841c7034f5ca1c76677e132903a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16773</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nca06913099734ae2a26dda391be89dca">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T04:04:55.061495</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:02</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34036</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6223db88093e4bcda6db25f863431ce0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nfa077a1c957c42c9975c599d340fe166">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Presidents -- United States -- Inaugural addresses</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/32943">
+        <pgterms:alias>Obama, Barack Hussein, II</pgterms:alias>
+        <pgterms:name>Obama, Barack</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-0.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3569244460ac4efd8799adc4b6200409">
+          <rdf:Description rdf:nodeID="N06e44bf9274146a3a3c410eaf4f2dd77">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:14</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N92724512727a45dc9ec5d361540023ae">
+          <rdf:Description rdf:nodeID="N9ca8450327c144c6b1886ba9764300ee">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13419</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-25</dcterms:issued>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5085a55ca4c14bdcb644a96b80cd20c3">
+      <rdf:Description rdf:nodeID="N8f3607cb60c4477ab3bf59fe442d8d62">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>E895</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0684100357244d468b08eed0d09b64c9">
-        <rdf:value>Obama, Barack, 1961- -- Inauguration, 2009</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N266c6139f9e64c4b9fa156755be68265">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:26:24</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:14</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N50050992092545138f9c97d47a619d7d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14183</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N744109378a31475ebe83d5692fa1b273">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34114</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne567ae5d94f5461ab177a9d2f950999b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="Nf4654a8b9e9649e9b841677908742a9e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11037</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T04:04:55.173484</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Inaŭgura parolado de Barack Obama&#13;
+20-a de januaro, 2009</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9483d2f3c31b493191f82fea83583179">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Obama, Barack, 1961- -- Inauguration, 2009</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971.zip">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:14</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndca0a30c18454975b82d9f56d9fa1685">
+          <rdf:Description rdf:nodeID="Nea22c4f1fb7b4c64bfa06b401e7a552f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na30056b9d5c34a72a0e550df42ad5dfe">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
@@ -78,115 +143,59 @@
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-h/28971-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36938</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:26:28</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:14</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4c339aff783e439b815eb35f2b4d48e2">
+          <rdf:Description rdf:nodeID="Nb41afc92ca7b491eb8620db96ccb86d8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc7b4b08c79a4462d80169c6febaf9e6a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14183</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-h/28971-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:27:02</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2affdf6002c243718855ab16d74735a4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="Ne6021929fd844481ba8acf031e5b6a33">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34036</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:26:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36938</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19807</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N542432ed628649c181f6c38959a039e1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T15:16:40.975309</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nbd5ab340c90647668735a1c4347078fd">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</pgterms:downloads>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nbe4c7c82381f44169a3a257b581a5458">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Esperanto</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Ne06140a9be0e4f35ad756d717e53a67c">
+      <rdf:Description rdf:nodeID="N51554c28cee34580b3a8824e53666ddc">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T15:16:40.341937</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75288</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc34fa2c55e2d47dd80dec3e486025d6c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/32943">
-        <pgterms:name>Obama, Barack</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</pgterms:birthdate>
-        <pgterms:alias>Obama, Barack Hussein, II</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/28971.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T09:35:15.500361</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32192</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2bcb40eb718f4f8c8536a9d1bda35cb7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/28971/28971-0.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/28971"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-25T16:26:24</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34114</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2f48ab0048794a1d8c4c92f57f8863e4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Inaŭgura parolado de Barack Obama&#13;
-20-a de januaro, 2009</dcterms:title>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7daa705c3fe14fe8a2cbadde808f57dd">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Presidents -- United States -- Inaugural addresses</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-25</dcterms:issued>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N5ee0f88faa4847b3aca9b2d0641f526b">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">eo</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
